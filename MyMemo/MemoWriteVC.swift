@@ -49,7 +49,7 @@ class MemoWriteVC: UIViewController, UINavigationControllerDelegate {
     }
 }
 
-// Mark:-UIImagePickerController Delegate Implement
+// MARK: - UIImagePickerController Delegate Implement
 extension MemoWriteVC: UIImagePickerControllerDelegate {
     func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
         self.preview.image = info[.editedImage] as? UIImage
@@ -58,7 +58,7 @@ extension MemoWriteVC: UIImagePickerControllerDelegate {
     }
 }
 
-// Mark:-UITextView Delegate Implement
+// MARK: - UITextView Delegate Implement
 extension MemoWriteVC: UITextViewDelegate {
     func textViewDidChange(_ textView: UITextView) {
         let contents = textView.text as NSString
