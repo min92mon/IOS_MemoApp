@@ -204,22 +204,23 @@
         <scene sceneID="KIJ-tB-os4">
             <objects>
                 <viewController title="MemoWriteView" id="2c0-nA-QDO" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="tSM-SZ-N7C">
+                    <view key="view" contentMode="scaleToFill" id="tSM-SZ-N7C">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="hvv-lb-Oxt">
-                                <rect key="frame" x="16" y="108" width="343" height="685"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="hvv-lb-Oxt">
+                                <rect key="frame" x="16" y="108" width="343" height="250"/>
                                 <color key="backgroundColor" systemColor="systemGray6Color"/>
                                 <constraints>
+                                    <constraint firstAttribute="height" constant="250" id="Wey-Aa-6E4"/>
                                     <constraint firstAttribute="height" constant="250" id="isk-dl-zsk"/>
                                 </constraints>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences" autocorrectionType="no" spellCheckingType="no" keyboardAppearance="alert"/>
                             </textView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="EkL-qe-tkG">
-                                <rect key="frame" x="16" y="543" width="250" height="250"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="EkL-qe-tkG">
+                                <rect key="frame" x="16" y="373" width="250" height="250"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="250" id="NMO-L9-f0W"/>
                                     <constraint firstAttribute="width" constant="250" id="Tgr-GH-pHE"/>
@@ -229,7 +230,7 @@
                         <viewLayoutGuide key="safeArea" id="6Kj-Po-cIV"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="hvv-lb-Oxt" firstAttribute="bottom" secondItem="6Kj-Po-cIV" secondAttribute="bottom" constant="15" id="Hi0-9X-nHq"/>
+                            <constraint firstItem="EkL-qe-tkG" firstAttribute="top" secondItem="hvv-lb-Oxt" secondAttribute="bottom" constant="15" id="Qmz-hZ-PMH"/>
                             <constraint firstItem="hvv-lb-Oxt" firstAttribute="top" secondItem="6Kj-Po-cIV" secondAttribute="top" constant="20" id="TfX-aW-zDG"/>
                             <constraint firstItem="6Kj-Po-cIV" firstAttribute="trailing" secondItem="hvv-lb-Oxt" secondAttribute="trailing" constant="16" id="ZnG-3G-Wxk"/>
                             <constraint firstItem="EkL-qe-tkG" firstAttribute="leading" secondItem="6Kj-Po-cIV" secondAttribute="leading" constant="16" id="a0Y-nk-dbF"/>
@@ -245,7 +246,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fWP-Ey-NAg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1111" y="-197"/>
+            <point key="canvasLocation" x="1109.5999999999999" y="-197.29064039408868"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="wZD-QN-eud">
