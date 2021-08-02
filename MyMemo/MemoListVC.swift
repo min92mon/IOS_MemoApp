@@ -50,6 +50,8 @@ class MemoListVC: UITableViewController {
             return
         }
         
+        let row = self.appDelegate.memoList[indexPath.row]
+        vc.param = row
         self.navigationController?.pushViewController(vc, animated: true)
     }
 }

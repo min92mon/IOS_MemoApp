@@ -206,10 +206,15 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Title" id="nMg-2Y-qu0"/>
+                    <connections>
+                        <outlet property="contents" destination="MUE-xd-EZT" id="tJr-zz-KYC"/>
+                        <outlet property="img" destination="bKA-WA-HUb" id="64d-Me-CVw"/>
+                        <outlet property="subject" destination="jZR-qK-GD5" id="JMb-0x-8uz"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HAx-ZT-vqA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1109.5999999999999" y="464.77832512315274"/>
+            <point key="canvasLocation" x="1110" y="441"/>
         </scene>
         <!--MemoWriteView-->
         <scene sceneID="KIJ-tB-os4">
@@ -269,7 +274,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fWP-Ey-NAg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1109.5999999999999" y="-197.29064039408868"/>
+            <point key="canvasLocation" x="1110" y="-212"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="wZD-QN-eud">
