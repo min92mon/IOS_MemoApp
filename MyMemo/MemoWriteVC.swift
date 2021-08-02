@@ -40,12 +40,37 @@ class MemoWriteVC: UIViewController, UINavigationControllerDelegate {
     }
     
     @IBAction func pick(_ sender: Any) {
-        let picker = UIImagePickerController()
+        let actionSheet = UIAlertController(title: "이미지를 가져올 곳을 선택해주세요", message: nil, preferredStyle: .actionSheet)
+        /*
+        let cameraActionItem = UIAlertAction(title: "카메라", style: .default) {_ in
+            let picker = UIImagePickerController()
+            picker.delegate = self
+            picker.cameraDevice = .rear
+            picker.sourceType = .camera
+            self.present(picker, animated: false)
+        }
+        */
         
-        picker.delegate = self
-        picker.allowsEditing = true
+        let albumActionItem = UIAlertAction(title: "저장앨범", style: .default) {_ in
+            let picker = UIImagePickerController()
+            picker.delegate = self
+            picker.allowsEditing = true
+            picker.sourceType = .savedPhotosAlbum
+            self.present(picker, animated: false)
+        }
+        let libraryActionItem = UIAlertAction(title: "사진 라이브러리", style: .default) {_ in
+            let picker = UIImagePickerController()
+            picker.delegate = self
+            picker.allowsEditing = true
+            picker.sourceType = .photoLibrary
+            self.present(picker, animated: false)
+        }
         
-        self.present(picker, animated: false)
+//      actionSheet.addAction(cameraActionItem)
+        actionSheet.addAction(albumActionItem)
+        actionSheet.addAction(libraryActionItem)
+    
+        present(actionSheet, animated: false, completion: nil)
     }
 }
 
