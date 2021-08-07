@@ -21,6 +21,8 @@
 		C57D652626B6F3E600C05AE4 /* MemoListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C57D652526B6F3E600C05AE4 /* MemoListVC.swift */; };
 		C57D652826B6F43500C05AE4 /* MemoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C57D652726B6F43500C05AE4 /* MemoCell.swift */; };
 		C57D652A26B6F4B400C05AE4 /* MemoData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C57D652926B6F4B400C05AE4 /* MemoData.swift */; };
+		C5CC83D126BE801B002AA4F7 /* memoBackground.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C5CC83D026BE801B002AA4F7 /* memoBackground.jpg */; };
+		C5CC83D326BE855D002AA4F7 /* warning.png in Resources */ = {isa = PBXBuildFile; fileRef = C5CC83D226BE855D002AA4F7 /* warning.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +61,8 @@
 		C57D652526B6F3E600C05AE4 /* MemoListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoListVC.swift; sourceTree = "<group>"; };
 		C57D652726B6F43500C05AE4 /* MemoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoCell.swift; sourceTree = "<group>"; };
 		C57D652926B6F4B400C05AE4 /* MemoData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoData.swift; sourceTree = "<group>"; };
+		C5CC83D026BE801B002AA4F7 /* memoBackground.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = memoBackground.jpg; sourceTree = "<group>"; };
+		C5CC83D226BE855D002AA4F7 /* warning.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = warning.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +113,8 @@
 		C528550226B2F269006F67C2 /* MyMemo */ = {
 			isa = PBXGroup;
 			children = (
+				C5CC83D026BE801B002AA4F7 /* memoBackground.jpg */,
+				C5CC83D226BE855D002AA4F7 /* warning.png */,
 				C528550326B2F269006F67C2 /* AppDelegate.swift */,
 				C528550526B2F269006F67C2 /* SceneDelegate.swift */,
 				C528550926B2F269006F67C2 /* Main.storyboard */,
@@ -247,8 +253,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				C528551326B2F269006F67C2 /* LaunchScreen.storyboard in Resources */,
+				C5CC83D326BE855D002AA4F7 /* warning.png in Resources */,
 				C528551026B2F269006F67C2 /* Assets.xcassets in Resources */,
 				C528550B26B2F269006F67C2 /* Main.storyboard in Resources */,
+				C5CC83D126BE801B002AA4F7 /* memoBackground.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

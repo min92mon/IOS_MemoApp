@@ -16,12 +16,32 @@ class MemoWriteVC: UIViewController, UINavigationControllerDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.contents.delegate = self
+        
+        let bgImage = UIImage(named: "memoBackground.jpg")!
+        self.view.backgroundColor = UIColor(patternImage: bgImage)
+    
+        self.contents.layer.borderWidth = 0
+        self.contents.layer.borderColor = UIColor.clear.cgColor
+        self.contents.backgroundColor = UIColor.clear
+        
+        let style = NSMutableParagraphStyle()
+        style.lineSpacing = 14
+        self.contents.attributedText = NSAttributedString(string: " ", attributes: [.paragraphStyle: style])
+        self.contents.text = ""
     }
     
     @IBAction func save(_ sender: Any) {
         guard self.contents.text?.isEmpty == false else {
+            let alertVC = UIViewController()
+            let alertImg = UIImageView(image: UIImage(named: "warning.png"))
+            alertVC.view.frame = CGRect(x: 0, y: 0, width: 270, height: 80)
+            alertImg.frame = CGRect(x: 0, y: 0, width: 50, height: 50)
+            alertImg.center = CGPoint(x: alertVC.view.frame.width/2, y: alertVC.view.frame.height/2)
+            alertVC.view.addSubview(alertImg)
+            
             let alert = UIAlertController(title: nil, message: "내용을 입력해주세요", preferredStyle: .alert)
             alert.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
+            alert.setValue(alertVC, forKey: "contentViewController")
             self.present(alert, animated: true, completion: nil)
             return
         }
@@ -71,6 +91,15 @@ class MemoWriteVC: UIViewController, UINavigationControllerDelegate {
         actionSheet.addAction(libraryActionItem)
     
         present(actionSheet, animated: false, completion: nil)
+    }
+    
+    override func touchesEnded(_ touches: Set<UITouch>, with event: UIEvent?) {
+        let bar = self.navigationController?.navigationBar
+        
+        let ts = TimeInterval(0.3)
+        UIView.animate(withDuration: ts) {
+            bar?.alpha = ( bar?.alpha == 0 ? 1 : 0 )
+        }
     }
 }
 
