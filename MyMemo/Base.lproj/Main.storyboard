@@ -16,10 +16,21 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                        <view key="tableFooterView" contentMode="scaleToFill" id="dA5-bD-9EE">
+                        <view key="tableFooterView" contentMode="scaleToFill" id="A1j-tr-1Pt">
                             <rect key="frame" x="0.0" y="238" width="375" height="44"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <subviews>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y1q-5s-09A" customClass="CSButton" customModule="MyMemo" customModuleProvider="target">
+                                    <rect key="frame" x="153" y="4.6666666666666679" width="69" height="35"/>
+                                    <state key="normal" title="Button"/>
+                                    <buttonConfiguration key="configuration" style="plain" title="더보기"/>
+                                </button>
+                            </subviews>
                             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            <constraints>
+                                <constraint firstItem="y1q-5s-09A" firstAttribute="centerX" secondItem="A1j-tr-1Pt" secondAttribute="centerX" id="KMo-Xe-Q78"/>
+                                <constraint firstItem="y1q-5s-09A" firstAttribute="centerY" secondItem="A1j-tr-1Pt" secondAttribute="centerY" id="iNc-S5-2K8"/>
+                            </constraints>
                         </view>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="memoCell" rowHeight="80" id="Vp5-1X-hz0" customClass="MemoCell" customModule="MyMemo" customModuleProvider="target">
@@ -159,7 +170,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OZk-fp-Enp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="250" y="103"/>
+            <point key="canvasLocation" x="248.80000000000001" y="102.70935960591133"/>
         </scene>
         <!--DetailView-->
         <scene sceneID="TX5-el-YDN">

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C506FB4326BE708800EAF33C /* CSLogButtton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C506FB4226BE708800EAF33C /* CSLogButtton.swift */; };
 		C528550426B2F269006F67C2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C528550326B2F269006F67C2 /* AppDelegate.swift */; };
 		C528550626B2F269006F67C2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C528550526B2F269006F67C2 /* SceneDelegate.swift */; };
 		C528550B26B2F269006F67C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C528550926B2F269006F67C2 /* Main.storyboard */; };
@@ -40,6 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C506FB4226BE708800EAF33C /* CSLogButtton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSLogButtton.swift; sourceTree = "<group>"; };
 		C528550026B2F269006F67C2 /* MyMemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyMemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C528550326B2F269006F67C2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C528550526B2F269006F67C2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -117,6 +119,7 @@
 				C57D652526B6F3E600C05AE4 /* MemoListVC.swift */,
 				C57D652926B6F4B400C05AE4 /* MemoData.swift */,
 				C57D652726B6F43500C05AE4 /* MemoCell.swift */,
+				C506FB4226BE708800EAF33C /* CSLogButtton.swift */,
 				C57D652126B6F37D00C05AE4 /* MemoWriteVC.swift */,
 				C57D652326B6F39E00C05AE4 /* MemoReadVC.swift */,
 			);
@@ -271,6 +274,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C57D652826B6F43500C05AE4 /* MemoCell.swift in Sources */,
+				C506FB4326BE708800EAF33C /* CSLogButtton.swift in Sources */,
 				C57D652A26B6F4B400C05AE4 /* MemoData.swift in Sources */,
 				C57D652626B6F3E600C05AE4 /* MemoListVC.swift in Sources */,
 				C528550426B2F269006F67C2 /* AppDelegate.swift in Sources */,
