@@ -8,6 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		C506FB4326BE708800EAF33C /* CSLogButtton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C506FB4226BE708800EAF33C /* CSLogButtton.swift */; };
+		C517F97726C0217900176DEE /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C517F97526C0217900176DEE /* SWRevealViewController.m */; };
+		C517F98226C0220300176DEE /* sidemenu.png in Resources */ = {isa = PBXBuildFile; fileRef = C517F97C26C0220300176DEE /* sidemenu.png */; };
+		C517F98626C0223100176DEE /* minmon.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = C517F98526C0223100176DEE /* minmon.jpeg */; };
+		C517F98826C028D100176DEE /* SideBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C517F98726C028D100176DEE /* SideBarVC.swift */; };
+		C517F98A26C02A3300176DEE /* account@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C517F98926C02A3300176DEE /* account@2x.jpg */; };
+		C517F99126C02A7200176DEE /* icon05.png in Resources */ = {isa = PBXBuildFile; fileRef = C517F98B26C02A7200176DEE /* icon05.png */; };
+		C517F99226C02A7200176DEE /* icon02.png in Resources */ = {isa = PBXBuildFile; fileRef = C517F98C26C02A7200176DEE /* icon02.png */; };
+		C517F99326C02A7200176DEE /* icon04.png in Resources */ = {isa = PBXBuildFile; fileRef = C517F98D26C02A7200176DEE /* icon04.png */; };
+		C517F99426C02A7200176DEE /* icon03.png in Resources */ = {isa = PBXBuildFile; fileRef = C517F98E26C02A7200176DEE /* icon03.png */; };
+		C517F99526C02A7200176DEE /* icon06.png in Resources */ = {isa = PBXBuildFile; fileRef = C517F98F26C02A7200176DEE /* icon06.png */; };
+		C517F99626C02A7200176DEE /* icon01.png in Resources */ = {isa = PBXBuildFile; fileRef = C517F99026C02A7200176DEE /* icon01.png */; };
+		C517F99826C0319000176DEE /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C517F99726C0319000176DEE /* ProfileVC.swift */; };
+		C517F99A26C03B2200176DEE /* profile-bg.png in Resources */ = {isa = PBXBuildFile; fileRef = C517F99926C03B2200176DEE /* profile-bg.png */; };
 		C528550426B2F269006F67C2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C528550326B2F269006F67C2 /* AppDelegate.swift */; };
 		C528550626B2F269006F67C2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C528550526B2F269006F67C2 /* SceneDelegate.swift */; };
 		C528550B26B2F269006F67C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C528550926B2F269006F67C2 /* Main.storyboard */; };
@@ -44,6 +57,21 @@
 
 /* Begin PBXFileReference section */
 		C506FB4226BE708800EAF33C /* CSLogButtton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSLogButtton.swift; sourceTree = "<group>"; };
+		C517F97426C0217900176DEE /* MyMemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MyMemo-Bridging-Header.h"; sourceTree = "<group>"; };
+		C517F97526C0217900176DEE /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		C517F97626C0217900176DEE /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		C517F97C26C0220300176DEE /* sidemenu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sidemenu.png; sourceTree = "<group>"; };
+		C517F98526C0223100176DEE /* minmon.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = minmon.jpeg; sourceTree = "<group>"; };
+		C517F98726C028D100176DEE /* SideBarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideBarVC.swift; sourceTree = "<group>"; };
+		C517F98926C02A3300176DEE /* account@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "account@2x.jpg"; sourceTree = "<group>"; };
+		C517F98B26C02A7200176DEE /* icon05.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon05.png; sourceTree = "<group>"; };
+		C517F98C26C02A7200176DEE /* icon02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon02.png; sourceTree = "<group>"; };
+		C517F98D26C02A7200176DEE /* icon04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon04.png; sourceTree = "<group>"; };
+		C517F98E26C02A7200176DEE /* icon03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon03.png; sourceTree = "<group>"; };
+		C517F98F26C02A7200176DEE /* icon06.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon06.png; sourceTree = "<group>"; };
+		C517F99026C02A7200176DEE /* icon01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon01.png; sourceTree = "<group>"; };
+		C517F99726C0319000176DEE /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
+		C517F99926C03B2200176DEE /* profile-bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "profile-bg.png"; sourceTree = "<group>"; };
 		C528550026B2F269006F67C2 /* MyMemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyMemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C528550326B2F269006F67C2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C528550526B2F269006F67C2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -90,6 +118,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C517F97826C021EB00176DEE /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				C517F99926C03B2200176DEE /* profile-bg.png */,
+				C517F98926C02A3300176DEE /* account@2x.jpg */,
+				C5CC83D026BE801B002AA4F7 /* memoBackground.jpg */,
+				C5CC83D226BE855D002AA4F7 /* warning.png */,
+				C517F98526C0223100176DEE /* minmon.jpeg */,
+				C517F99026C02A7200176DEE /* icon01.png */,
+				C517F98C26C02A7200176DEE /* icon02.png */,
+				C517F98E26C02A7200176DEE /* icon03.png */,
+				C517F98D26C02A7200176DEE /* icon04.png */,
+				C517F98B26C02A7200176DEE /* icon05.png */,
+				C517F98F26C02A7200176DEE /* icon06.png */,
+				C517F97C26C0220300176DEE /* sidemenu.png */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
 		C52854F726B2F269006F67C2 = {
 			isa = PBXGroup;
 			children = (
@@ -113,8 +160,9 @@
 		C528550226B2F269006F67C2 /* MyMemo */ = {
 			isa = PBXGroup;
 			children = (
-				C5CC83D026BE801B002AA4F7 /* memoBackground.jpg */,
-				C5CC83D226BE855D002AA4F7 /* warning.png */,
+				C517F97826C021EB00176DEE /* Resource */,
+				C517F97626C0217900176DEE /* SWRevealViewController.h */,
+				C517F97526C0217900176DEE /* SWRevealViewController.m */,
 				C528550326B2F269006F67C2 /* AppDelegate.swift */,
 				C528550526B2F269006F67C2 /* SceneDelegate.swift */,
 				C528550926B2F269006F67C2 /* Main.storyboard */,
@@ -123,11 +171,14 @@
 				C528551426B2F269006F67C2 /* Info.plist */,
 				C528550C26B2F269006F67C2 /* MyMemo.xcdatamodeld */,
 				C57D652526B6F3E600C05AE4 /* MemoListVC.swift */,
+				C517F98726C028D100176DEE /* SideBarVC.swift */,
+				C517F99726C0319000176DEE /* ProfileVC.swift */,
 				C57D652926B6F4B400C05AE4 /* MemoData.swift */,
 				C57D652726B6F43500C05AE4 /* MemoCell.swift */,
 				C506FB4226BE708800EAF33C /* CSLogButtton.swift */,
 				C57D652126B6F37D00C05AE4 /* MemoWriteVC.swift */,
 				C57D652326B6F39E00C05AE4 /* MemoReadVC.swift */,
+				C517F97426C0217900176DEE /* MyMemo-Bridging-Header.h */,
 			);
 			path = MyMemo;
 			sourceTree = "<group>";
@@ -216,6 +267,7 @@
 				TargetAttributes = {
 					C52854FF26B2F269006F67C2 = {
 						CreatedOnToolsVersion = 13.0;
+						LastSwiftMigration = 1300;
 					};
 					C528551826B2F269006F67C2 = {
 						CreatedOnToolsVersion = 13.0;
@@ -253,10 +305,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				C528551326B2F269006F67C2 /* LaunchScreen.storyboard in Resources */,
+				C517F99126C02A7200176DEE /* icon05.png in Resources */,
+				C517F99526C02A7200176DEE /* icon06.png in Resources */,
+				C517F98226C0220300176DEE /* sidemenu.png in Resources */,
+				C517F99A26C03B2200176DEE /* profile-bg.png in Resources */,
 				C5CC83D326BE855D002AA4F7 /* warning.png in Resources */,
+				C517F99226C02A7200176DEE /* icon02.png in Resources */,
 				C528551026B2F269006F67C2 /* Assets.xcassets in Resources */,
 				C528550B26B2F269006F67C2 /* Main.storyboard in Resources */,
 				C5CC83D126BE801B002AA4F7 /* memoBackground.jpg in Resources */,
+				C517F99326C02A7200176DEE /* icon04.png in Resources */,
+				C517F99426C02A7200176DEE /* icon03.png in Resources */,
+				C517F99626C02A7200176DEE /* icon01.png in Resources */,
+				C517F98626C0223100176DEE /* minmon.jpeg in Resources */,
+				C517F98A26C02A3300176DEE /* account@2x.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,13 +343,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C517F99826C0319000176DEE /* ProfileVC.swift in Sources */,
 				C57D652826B6F43500C05AE4 /* MemoCell.swift in Sources */,
+				C517F98826C028D100176DEE /* SideBarVC.swift in Sources */,
 				C506FB4326BE708800EAF33C /* CSLogButtton.swift in Sources */,
 				C57D652A26B6F4B400C05AE4 /* MemoData.swift in Sources */,
 				C57D652626B6F3E600C05AE4 /* MemoListVC.swift in Sources */,
 				C528550426B2F269006F67C2 /* AppDelegate.swift in Sources */,
 				C57D652426B6F39E00C05AE4 /* MemoReadVC.swift in Sources */,
 				C528550626B2F269006F67C2 /* SceneDelegate.swift in Sources */,
+				C517F97726C0217900176DEE /* SWRevealViewController.m in Sources */,
 				C528550E26B2F269006F67C2 /* MyMemo.xcdatamodeld in Sources */,
 				C57D652226B6F37D00C05AE4 /* MemoWriteVC.swift in Sources */,
 			);
@@ -465,6 +530,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = LL567L987T;
@@ -485,6 +551,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = minmon.MyMemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "MyMemo/MyMemo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -495,6 +563,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = LL567L987T;
@@ -515,6 +584,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = minmon.MyMemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "MyMemo/MyMemo-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
